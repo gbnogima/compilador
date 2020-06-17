@@ -41,6 +41,9 @@ def write_output(fout):
                 line = error[0]
                 fout.write("\nLinha {}:".format(line))
                 fout.write("\n\tPos. {}: {} -> {}".format(error[1], error[2], error[3]))
+    
+    if(not parser_errors or lexical.lexical_errors):
+        fout.write("Sucesso.")
 
 # Imprime os erros identificados no analisador sintático
 def print_errors():
@@ -74,7 +77,6 @@ def handle_error(program, string, msg, sync=[], follow=[], max_errors=0):
         update_token(program)
     
     if(lexical.i < len(program)):
-        print(token)
         if(max_errors < 0) or token in follow:
             return True
         else:
@@ -646,8 +648,8 @@ def programa(program):
 
     corpo(program)
 
-    # if(token == 'simb_pf'):
-    #     print("Fim")
+    if(token == 'simb_pf'):
+        print("Fim")
 
 
 # Realiza a chamada do analisador sintático
