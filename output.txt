@@ -1,0 +1,15 @@
+Erros léxicos: 
+Linha 7:
+	Pos. 22: Número mal formado. Esperava-se '.' ou dígito. -> 3a
+
+Erros sintáticos: 
+Linha 4:
+	Pos. 9: Esperava-se ';' -> procedure
+Linha 6:
+	Pos. 19: Esperava-se 'then' -> thn
+Linha 7:
+	Pos. 22: Esperava-se expressão -> 3a
+Linha 11:
+	Pos. 6: Esperava-se '(' ou ':=' -> =
+Linha 12:
+	Pos. 10: Esperava-se ')' -> h

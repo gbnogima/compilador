@@ -1,0 +1,10 @@
+program foo ;
+{erro declaração de variáveis}
+var a b: integer;
+
+
+begin
+    a := 2+99; 
+    b := 3 + 93 * 5 + 87 * (23+15*6);    
+    
+end.   

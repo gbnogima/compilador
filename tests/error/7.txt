@@ -1,0 +1,30 @@
+program foo;
+{testando múltiplos erros}
+var a, b, c d, e : integer;
+begin
+    a := 3;
+    b := 3a;
+    if b > 7 then
+        begin
+            c := a+b-2;
+            if c < 5 then
+                begin
+                    d := c+a-b;
+                end
+            else
+                begin
+                    d := c-a+b;
+                end;
+        end
+    
+        begin
+            c := a*b;
+            if c > 5 then
+                d := 6
+            else
+                d := 7;
+        end;
+
+    e := 7;
+
+end.

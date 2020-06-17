@@ -1,0 +1,13 @@
+program foo;
+{testando múltiplos erros}
+var g, h: integer
+procedure  sum(a, b:integer);
+   begin
+      if a <= 0 thn g := b + 9
+      else g := b * 3a;
+   end;
+begin 
+   g := 7; 
+   h = 10;
+   sum(g h);   
+end. 

@@ -1,0 +1,14 @@
+program foo;
+   var a, b: integer;
+   
+   procedure simplesum(a, b: integer);
+      begin
+         simplesum := a * b;
+         
+      end;
+
+   begin  
+      a := 7; 
+      b := 13;
+      simplesum(a, b);
+   end.   

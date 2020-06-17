@@ -1,0 +1,15 @@
+program foo;
+{erro nos argumentos da função}
+var a, b: integer;
+
+procedure simplesum(a, b: intger);
+   begin
+      simplesum := a * b;
+      
+   end;
+
+begin  
+   a := 7; 
+   b := 13;
+   simplesum(a b);
+end.   
