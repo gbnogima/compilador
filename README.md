@@ -1,6 +1,6 @@
 # Analisado Sintático - Trabalho 2 
 
-Implementação de um analisador sintático, utilizando o método descendente preditivo recursivo, e o modo Pânico para tratamento de erros.
+Implementação de um analisador sintático e léxico, utilizando o método descendente preditivo recursivo, e o modo Pânico para tratamento de erros.
 
 ## Requisitos
 
